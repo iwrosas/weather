@@ -6,7 +6,10 @@
 ************************************************************************
 """
 
-!pip3 install twilio
+import subprocess
+
+# Ejecutar el comando
+subprocess.run(['pip3', 'install', 'twilio'])
 
 import os
 from twilio.rest import Client
