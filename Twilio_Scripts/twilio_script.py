@@ -6,6 +6,7 @@
 ************************************************************************
 """
 
+!pip3 install twilio
 
 import os
 from twilio.rest import Client
